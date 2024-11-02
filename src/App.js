@@ -1,10 +1,21 @@
-import MainApp from './MainApp'
+import Navbar from './Components/NavBar/NavBar';
+import IntroSection from './Components/IntroSection/IntroSection';
+import EquipmentSection from './Components/EquipmentSection/EquipmentSection';
+import ContactSection from './Components/ContactSection/ContactSection';
+import Footer from './Components/Footer/Footer';
+// import Alerts from './Alerts';
 
 function App() {
-  // const [count, setCount] = useState(0);
 
   return (
-    <div> <MainApp /> </div>
+    <>
+      <Navbar /> 
+      <IntroSection />
+      <EquipmentSection />
+      <ContactSection />
+      <Footer /> 
+      {/* <Alerts />  */}
+     </>
   );
 }
 
